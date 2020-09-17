@@ -16,16 +16,17 @@ https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to
 ```sh
 git clone git@github.com......
 ``` 
-7. GitHub Pages and Actions: https://jupyterbook.org/publish/gh-pages.html
-      Terminal: 
+
+## Github Pages
+1. GitHub Pages and Actions: https://jupyterbook.org/publish/gh-pages.html:
       ```sh 
       pip install ghp-import
       ```
       ```sh
         ghp-import -n -p -f <repositoryName>/_build/html
       ``` 
-8. Live: https://<yourGitHubName>.github.io/<repositoryName>/
-9. Go to your Repositroy -> Settings -> Manage access: Here you can invite others 
+2. Live: https://<yourGitHubName>.github.io/<repositoryName>/
+3. Go to your Repositroy -> Settings -> Manage access: Here you can invite others 
  
 
 
