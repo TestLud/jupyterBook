@@ -9,6 +9,7 @@
       sections:
         - file: dsci-lab-getstarted
         - file: dsci-lab-use
+        - file: get-in-contact
         - file: sandbox/hello
         - file: dsci-lab-build
     - file: KaggleLearn
