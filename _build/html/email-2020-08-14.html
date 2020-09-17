@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>dsci-trans für andere Studiengänge &#8212; IM 970 Data Science (EN)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jbusse.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="dsci-lab (EN)" href="dsci-lab.html" />
+    <link rel="prev" title="Python Transition Course (EN)" href="dsci-pytrans.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">IM 970 Data Science (EN)</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   IM 970 “Data Science” (WS 2020)
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="README.html">
+   README.md
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="reference internal" href="dsci-pytrans.html">
+   Python Transition Course (EN)
+  </a>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     dsci-trans für andere Studiengänge
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dsci-lab.html">
+   dsci-lab (EN)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="KaggleLearn.html">
+   Kaggle Learn
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dsci-theory.html">
+   dsci-theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="zreferences.html">
+   References
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/email-2020-08-14.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> On this page
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dsci-lab">
+   dsci-lab
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-transition-course">
+   Python Transition Course
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lernmaterialen-statt-lehrmaterialien">
+   Lernmaterialen statt Lehrmaterialien
+  </a>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="dsci-trans-fur-andere-studiengange">
+<h1>dsci-trans für andere Studiengänge<a class="headerlink" href="#dsci-trans-fur-andere-studiengange" title="Permalink to this headline">¶</a></h1>
+<p>Liebe Kolleg*en,</p>
+<p>Ende Juli hatten ein paar von uns Informatikern eine kleine Zoom-Konferenz zum Thema Python:</p>
+<ul class="simple">
+<li><p>Wie können wir Studis, die schon C oder Java können,  Python schnell und knackig beibringen?</p></li>
+<li><p>Wie können nicht nur wir, sondern auch Studierende selbst feststellen, ob ihre Python-Kompetenzen für unsere Kurse ausreichend sind, und/oder ob sie noch dazulernen sollten (egal ob self-paced oder in einem Kurs bei uns)?</p></li>
+</ul>
+<p>Wie wir ja vorhergesehen hatten, taucht das Problem der fehlenden Python-Kenntnisse insbesondere inzwischen auch in anderen Fakultäten auf, in die wir Informatik-Veranstaltungen exportieren.</p>
+<p>Als Teil meines derzeitigen 50% Forschungs-Freisemesters hab ich dazu ein Konzept erstellt, das ich euch hiermit skizziere, mit der Bitte um Feedback.</p>
+<div class="section" id="dsci-lab">
+<h2>dsci-lab<a class="headerlink" href="#dsci-lab" title="Permalink to this headline">¶</a></h2>
+<p>Am einfachsten ist es, für die Grundlagen von Python sich mit den Studierenden auf <a class="reference external" href="https://cocalc.com/">https://cocalc.com/</a> zu treffen: Unbedingte Empfehlung! - Cocalc geht aber nur online (nicht jeder hat immer ein stabiles schnelles Internet), und wer mehr will, kommt an Grenzen.</p>
+<p>Ergänzend habe ich ein virtuelles Data-Science-Lab aufgesetzt: eine virtuelle Maschine zum Download,</p>
+<ul class="simple">
+<li><p>mit der die die Studierenden zuhause online und offline arbeiten können, und</p></li>
+<li><p>und deren Konfiguration wir so gut kennen, dass wir als Dozenten  bei Problemen zielgerichtete Unterstützung remote geben können.</p></li>
+</ul>
+<p>Das dsci-lab nutze ich selbst für meine dsci-Aufgaben. Eine erste Version ist inzwischen online. Ich würde mich sehr freuen, wenn ihr es ausprobieren wolltet:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.jbusse.de/dsci-lab/dsci-lab-getstarted.html">http://www.jbusse.de/dsci-lab/dsci-lab-getstarted.html</a></p></li>
+<li><p>(download-Credentials: siehe email)</p></li>
+</ul>
+<p>Falls ihr Probleme habt bei der Installation bitte sofort bei mir melden, ich unterstütze euch die nächsten Tage gerne; denn ich muss ja wissen, auf welche Probleme die Studie stoßen werden!</p>
+</div>
+<div class="section" id="python-transition-course">
+<h2>Python Transition Course<a class="headerlink" href="#python-transition-course" title="Permalink to this headline">¶</a></h2>
+<p>Zum andern erarbeite ich derzeit gemeinsam mit der eigens dafür vorgesehenen Lehrbeauftragten  Marta Vohnoutová einen Kurs für genau obige Zielgruppe:</p>
+<p><a class="reference external" href="http://www.jbusse.de/dsci-lab/dsci-pytrans.html">http://www.jbusse.de/dsci-lab/dsci-pytrans.html</a></p>
+<ul class="simple">
+<li><p>angeboten werden 2 SWS Lehre + Lernunterstützung</p></li>
+<li><p>findet statt in den ersten zwei Semesterwochen</p></li>
+<li><p>Teilnahme am Kurs und der Prüfung freiwillg</p></li>
+<li><p>endet mit einer kleinen freiwiligen, informellen Prüfung</p></li>
+<li><p>Kussprache EN</p></li>
+</ul>
+<p>In diesem Kurs geht es nur um die Wiederholung und den Transfer von Basics. Anspruch:</p>
+<ul class="simple">
+<li><p>Wer die für diesen Kurs vorausgesetzten 200h (10 ECTS) Programmieren in C oder Java in seinem bisherigen Studium leidlich gut absolviert hat, der/die sollte die Python-Transition nach einem Tag Lernzeit gut meistern können.</p></li>
+<li><p>Aber es mag auch an der Fakultät IF Studierende geben, die eine ganze Woche für diesen Kurs brauchen ;-)</p></li>
+</ul>
+</div>
+<div class="section" id="lernmaterialen-statt-lehrmaterialien">
+<h2>Lernmaterialen statt Lehrmaterialien<a class="headerlink" href="#lernmaterialen-statt-lehrmaterialien" title="Permalink to this headline">¶</a></h2>
+<p>Unter Kollegen sind wir uns weitgehend einig, dass das Erlernen einer Programmiersprache nicht durch Hören oder lesen oder Videos, sondern nur durch eigenständiges Tun geschehen kann:</p>
+<ul class="simple">
+<li><p>Denn Programmieren ist wir Klavierspielen: Wenn man es nur im Video erklärt bekommt, kann man es noch lange nicht.</p></li>
+</ul>
+<p>Bücher, Tutorials, Videos etc. zu Python gibt es im Netz massenhaft, eine Auswahl gibt z.B. <a class="reference external" href="http://jbusse.de/2020_ws_dsci/dsci-ressourcen.html">http://jbusse.de/2020_ws_dsci/dsci-ressourcen.html</a>. Meine Meinung: Für die Darstellung von Python Zeit zu investieren lohnt sich nicht, andere machen es schon sehr gut, die Latte liegt hoch.</p>
+<p>Wichtigste Einsicht unter Kollegen:</p>
+<ul class="simple">
+<li><p><em>Der wesentliche Engpass in der Lehre besteht</em> nicht in der Verfügbarkeit von Information / Lehrmaterial, sondern <em>in der schnellen Hilfe für Studierende beim Aufgabenlösen.</em></p></li>
+</ul>
+<p>Was die Studierenden (und wir) dazu brauchen sind in der Schwierigkeit gut justierte Aufgaben:</p>
+<ul class="simple">
+<li><p>nicht zu einfach -&gt; Langeweile</p></li>
+<li><p>nicht zu schwierig -&gt; Überforderung</p></li>
+<li><p>idealerweise lassen sich Aufgaben nach Schwierigkeit und Niveau klassifizieren</p></li>
+</ul>
+<p>In unserem Python Transition Course suchen wir derzeit nach einer Möglichkeit, wie wir vom Frontalunterricht wegkommen, die Teilnehmer zum Selbstlernen aktivieren, und gute Lernunterstützung anbieten können.</p>
+<p>Seit ein paar Tagen glaube ich etwas gefunden zu haben (Danke Markus Mock) für den Hinweis:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.codewars.com">https://www.codewars.com</a></p></li>
+</ul>
+<p>Wenn wir also ggf. Ressourcen bündeln wollen, um unseren Programmier-Unterricht weiter auszubauen, dann würde ich empfehlen, für eine Platform wie Codewars dutzende fachspezifische Python-Katas zu entwickeln und ggf. sogar Geld dafür zu bezahlen, diese Aufgaben auf codewars den Studierenden zur Verfügung zu stellen.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="dsci-pytrans.html" title="previous page">Python Transition Course (EN)</a>
+    <a class='right-next' id="next-link" href="dsci-lab.html" title="next page">dsci-lab (EN)</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Johannes Busse<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>
